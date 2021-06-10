@@ -8,6 +8,7 @@ try{
     $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 }
 catch(Exception $e){
+  var_dump($e);
 
 die('Une erreur est survenue');
 

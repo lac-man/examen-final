@@ -54,6 +54,7 @@ if(isset($_GET['category'])){
         <br/><br/>
         
        <?php
+    }
     }else{
     ?>
     <br/><br/><br/><br/>
